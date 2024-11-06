@@ -57,7 +57,6 @@ class tudo {
         foreach ($this->$paginas as $page => $columns) {
             foreach ($columns as $column => $index) {
                $this->dfdsgdgf($page, $column, $index["itens"], $index["minLinha"], $index["maxLinha"]);
-               break;
             }
         }
 
